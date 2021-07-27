@@ -3,14 +3,15 @@
 <head>
    <meta charset="UTF-8">
    <title>РокФор интернет-магазин</title>
-   <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+   <meta name="viewport" content="width=device-width">
 </head>
 <body>
    <div class="wrapper">
       <div class="content">
-         <div class="header">
-            <div class="container">
+         <header id="header" class="header lock-padding">
+            <div class="header__container _container">
                <div class="header__row">
                   <div class="header__logo">
                      <img src="img/logo.jpg" alt="логотип">
@@ -18,9 +19,9 @@
                   <div class="header__nav">
                      <nav class="header__menu">
                         <ul class="header__list">
-                           <li><a href="nav/about.html">О нас</a></li>
-                           <li><a href="nav/delivery.html">Доставка</a></li>
-                           <li><a href="nav/payment.html">Оплата</a></li>
+                           <li><a href="#popup" class="header__about popup-link">О нас</a></li>
+                           <li><a href="#popup_2" class="header__about popup-link">Доставка</a></li>
+                           <li><a href="#popup_3" class="header__about popup-link">Оплата</a></li>
                         </ul>
                      </nav>
                   </div>
@@ -31,7 +32,7 @@
                   </div>
                </div>
             </div>
-         </div>
+         </header>
          <div class="columns">
             <div class='container'>
                <div class="columns__title title">Сыры с плесенью</div>
@@ -64,7 +65,7 @@
                            <div class="item__image"><img src="img/11.png" alt=""></div>
                            <div class="item__body">
                               <div class="item__title">Стилтон</div>
-                              <div class="item__text">это дешевый аналог Дор Блю. Его выдерживают около 9 месяцев. Парфюмеры настолько оценили непревзойденный аромат продукта, что стали добавлять его в свои композиции духов.</div>
+                              <div class="item__text">Это дешевый аналог Дор Блю. Его выдерживают около 9 месяцев. Парфюмеры настолько оценили непревзойденный аромат продукта, что стали добавлять его в свои композиции духов.</div>
                            </div>
                         </div>
                      </div>
@@ -194,9 +195,79 @@
                <div class="footer__contact">8 800 123 45 67</div>
             </div>
          </div>
-         <a href=""><input type="submit" class="button" value="Хочу скидку!"></a>
+         <a href="#popup_4" class="popup-link"><input type="submit" class="button" value="Хочу скидку!"></a>
       </footer>
    </div>
    <script src="https://kit.fontawesome.com/9bda6dcd97.js" crossorigin="anonymous"></script>
+   <div id="popup" class="popup">
+      <div class="popup__body">
+         <div class="popup__content">
+            <a href="#header" class="popup__close close-popup">X</a>
+            <div class="popup__title">Это модальное окно №1 О нас</div>
+            <div class="popup__text">
+               <p>В нашем интернет-магазине Вы можете приобрести сыр различных сортов, который мы готовим по традиционным рецептам и на основе свежайших ингредиентов.</p>
+               <h2>Наши преимущества:</h2>
+               <ul>
+                  <li>Широкий ассортимент</li>
+                  <li><a class="popup-link" href="#popup_2">Быстрая доставка</a></li>
+                  <li><a class="popup-link" href="#popup_3">Удобная оплата</a></li>
+                  <li>Можно приобрести целую головку сыра...</li>
+                  <li>...или сырную тарелку для пробы каждого сорта сыра</li>
+               </ul>  
+               <p>Мы заинтересованы в расширении аудитории нашего магазина, поэтому ответственно подходим к организации процесса торговли.
+                  Вся приобретаемая вами продукция будет доставлена в срок и в полной комплектации. Цены, указанные на сайте, являются актуальными.
+                  Удачных покупок!</p>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="popup_2" class="popup">
+      <div class="popup__body">
+         <div class="popup__content">
+            <a href="#header" class="popup__close close-popup">X</a>
+            <div class="popup__title">Доставка</div>
+            <div class="popup__text">
+               <h2>Возможные варианты доставки::</h2>
+               <ul>
+                  <li>Самовывоз г.Н.Новгород, ул.Большевистская, д.1 БЕСПЛАТНО</li>
+                  <li>Курьерская доставка по Н.Новгороду 200 руб.</li>
+                  <li>Курьерская доставка по Н.Новгороду БЕСПЛАТНО от 2000 руб.</li>
+               </ul>  
+               <p>Мы заботимся о том, чтобы доставить продукцию в наилучшем свежем виде, поэтому доставляем только в рамках города.
+                  Вся приобретаемая вами продукция будет доставлена в срок, в полной комплектации, условия оплаты можно посмотреть <a href="#popup_3" class="header__about popup-link">здесь</a>.
+                  Удачных покупок!</p>
+
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="popup_3" class="popup">
+      <div class="popup__body">
+         <div class="popup__content">
+            <a href="#header" class="popup__close close-popup">X</a>
+            <div class="popup__title">Оплата</div>
+            <div class="popup__text">
+               <h2>Оплата заказов</h2>
+               <ul>
+                  <li>Оплата наличными или картой в магазине</li>
+                  <li>Оплата на сайте без комиссии</li>
+                  <li>Оплата курьеру доступна только постоянным клиентам</li>
+               </ul>  
+               <p>Удачных покупок!</p>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="popup_4" class="popup">
+      <div class="popup__body">
+         <div class="popup__content">
+            <a href="#header" class="popup__close close-popup">X</a>
+            <form action="">
+               
+            </form>
+         </div>
+      </div>
+   </div>
+   <script src="/js/popup.js"></script>
 </body>
 </html>
