@@ -97,7 +97,10 @@ body{
 .columns__item {
 
 }
-
+h2{
+   font-size: 30px;
+   color: red;
+}
 .item {}
 .item__row {
 	display: flex;
