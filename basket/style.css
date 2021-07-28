@@ -1,0 +1,176 @@
+/*Обнуляющие стили*/
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+/*--------------------*/
+/*@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');*/
+
+body{
+   font-family: 'Lobster';
+   color: #d23c24;
+ }
+.wrapper{
+   min-height: 100%;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+}
+
+ .container{
+    max-width: 1180px;
+    margin: 0px auto;
+ }
+.content{
+   flex: 1 1 auto;
+}
+.header{
+   padding: 5px 0;
+   border-bottom: 2.5px solid #fbc200;
+}
+a, a:visited{
+   color: #d23c24;;
+}
+.header__row{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+ .header__logo img{
+   height: 80px;
+ }
+ .header__list{
+    display: flex;
+ }
+ .header__list li{
+    font-size: 30px;
+    padding: 0px 0px 0px 36px;
+    text-shadow: 2px 2px 0 #fbc200;    
+ } 
+ .header__list a:hover{
+    color: #bacc04;
+ }
+  
+ .header__icons{
+    font-size: 35px;
+    text-shadow: 2px 2px 0 #fbc200;
+ }
+ .header__icons a{
+   padding: 0px 0px 0px 36px;
+ }
+
+.form, input{
+   font-size: 20px;
+   color: #d23c24;
+ }
+input{
+   width: 200px;
+}
+h3{
+   font-size: 30px;
+   padding: 5px 0 50px 0;
+   text-align: center;
+}
+select{
+   font-size: 14px;
+   font-family: 'Lobster';
+   color: #827b7b;
+}
+table
+{
+	width: 550px;
+}
+table,
+th,
+tr
+{
+	border: 2px solid #d23c24;
+	border-collapse: collapse;
+}
+.italic
+{
+font-style: italic;
+}
+
+caption
+{
+	font-size: 14pt;
+}
+form
+{
+	display: table;
+	padding: 42px;
+	border: thin dotted #d23c24;
+	background-color: #f8c305;
+}
+
+form textarea
+{
+	width: 250px;
+	height: 70px;
+}
+
+div.tableRow
+{
+	display: table-row;
+}
+
+div.tableRow p
+{
+	display: table-cell;
+	vertical-align: top;
+	padding: 3px;
+}
+div.tableRow p:first-child
+{
+	text-align: right;
+}
+
+ .footer{
+   background-color: #f8c305;
+ }
+.footer__row{
+   display: flex;
+   height: 65px;
+   justify-content: center;
+   align-items: center;
+}
+.footer__social{
+}
+.footer__info{
+   color: #fff;
+   font-size: 14px;
+   letter-spacing: 1.5px;
+}
+.footer a{
+   color: #d23c24;
+}
+.footer a:hover{
+   font-weight: bold;
+}
+.button{
+	padding: 10px;
+	background: #bacc04;
+   color: #d23c24;
+	font-size: 30px;
+	border: 2.5px solid #d23c2e;
+	border-radius: 10px;
+	position: fixed;
+	right: 10px;
+	bottom: 75px;
+}
+.button:hover{
+	background: #fff;
+}
+© 2021 GitHub, Inc.

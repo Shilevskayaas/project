@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <title>РокФор интернет-магазин</title>
+   <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="wrapper">
+      <div class="content">
+         <div class="header">
+            <div class="container">
+               <div class="header__row">
+                  <div class="header__logo">
+                     <a href="../index.html"><img src="../img/logo.jpg" alt="логотип"></a>
+                  </div>
+                  <div class="header__nav">
+                     <nav class="header__menu">
+                        <ul class="header__list">
+                           <li><a href="nav/about.html">О нас</a></li>
+                           <li><a href="nav/delivery.html">Доставка</a></li>
+                           <li><a href="nav/payment.html">Оплата</a></li>
+                        </ul>
+                     </nav>
+                  </div>
+                  <div class="header__icons">
+                     <a href=""><div class="fas fa-search"></div></a>
+                     <a href=""><div class="fas fa-user"></div></a>
+                     <a href=""><div class="fas fa-shopping-cart"></div></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="form">
+            <form action="htt://wickedlysmart.com/hfhtmlcss/contest.php" method="POST">
+               <h3>Форма заказа</h3>
+                  <div class="tableRow">
+                     <p>Наименование <input type="text" placeholder="Маргарита" name="pizza" required><br/></p>
+                  </div>
+                  <div class="tableRow">
+                  <p>Количество <input type="number" placeholder="2" name="number" required> <br/></p>
+               </div>
+               <div class="tableRow">
+                  <p>Номер телефона <input type="phonenumber" placeholder="+7910..." required><br/></p>
+               </div>
+               <div class="tableRow">
+                  <p>Адрес <input type="text" name="adress" placeholder="Н.Новгород, Ленина пр-т,..." required><br/></p>
+               </div>
+               <div class="tableRow">
+                  <p>С какой суммы подготовить сдачу <input type="number" name="money"/> <br/></p>
+               </div>
+               <div class="tableRow">
+                  <p>Выбор комплимента
+                     <select name="Выбор комплимента">
+                     <option>Нож для сыра</option>
+                     <option>Шпажки</option>
+                  </select></p>
+               </div>
+               <div class="tableRow">
+                  <p>Как вас найти <textarea placeholder="Подъезд с левой стороны дома..." name="my home"></textarea></p>
+               </div>
+               <div class="tableRow">
+                  <p><input type="reset" value="Очистить форму" />
+                  </p>
+               </div>
+               <div class="tableRow">
+                  <p><input type="submit" value="Оформить заказ" /></p>
+               </div>
+               </form>
+         </div>
+      </div>
+      <footer class="footer">
+         <div class="container">
+            <div class="footer__row">
+               <div class="footer__social"></div>
+               <div class="footer__info">Проект подготовлен в рамках курса JavaScript Pro в <a href ="https://fpk.unn.ru/kursy-programmirovaniya/kursy-programmirovaniya-na-javascript/prodvinutyj-kurs-javascript/" target="_blank">ФПК ННГУ</a> под руководством компании <a href ="https://lad24.ru/" target="_blank">LAD</a></div>
+            </div>
+         </div>
+         <a href=""><input type="submit" class="button" value="Хочу скидку!"></a>
+      </footer>
+   </div>
+   <script src="https://kit.fontawesome.com/9bda6dcd97.js" crossorigin="anonymous"></script>
+</body>
+</html>
