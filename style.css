@@ -17,13 +17,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 /*--------------------*/
 /*@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');*/
 
-html, body{
-   height: 100%;
+body{
    font-family: 'Lobster';
    color: #d23c24;
- }
- body.lock{
-    overflow: hidden;
  }
 .wrapper{
    min-height: 100%;
@@ -32,7 +28,7 @@ html, body{
    flex-direction: column;
 }
 
-.container, .header__container{
+ .container{
     max-width: 1300px;
     margin: 0px auto;
  }
@@ -43,7 +39,7 @@ html, body{
    padding: 5px 0;
    border-bottom: 2.5px solid #fbc200;
 }
-.header a, .header a:visited{
+a, a:visited{
    color: #d23c24;
 }
 .header__row{
@@ -59,7 +55,7 @@ html, body{
  }
  .header__list li{
     font-size: 30px;
-    padding: 0px 0px 0px 50px;
+    padding: 0px 0px 0px 115px;
     text-shadow: 2px 2px 0 #fbc200;    
  } 
  .header__list a:hover{
@@ -71,7 +67,7 @@ html, body{
     text-shadow: 2px 2px 0 #fbc200;
  }
  .header__icons a{
-   padding: 0px 0px 0px 15px;
+   padding: 0px 0px 0px 36px;
  }
 
 
@@ -79,6 +75,7 @@ html, body{
 	padding: 25px 0 25px 0;
    background: url("img/bcg.jpg") round;
 }
+
 .columns__title {
 	text-align: center;
 	margin: 0px 0px 30px 0px;
@@ -91,7 +88,7 @@ html, body{
 .columns__row {
 	display: flex;
 	flex-wrap: wrap;
-	margin: 0px -8px;
+   margin: 0px 0px 70px 0px;
 }
 .columns__column {
 	flex: 0 1 50%;
@@ -101,6 +98,7 @@ html, body{
 .columns__item {
 
 }
+
 .item {}
 .item__row {
 	display: flex;
@@ -116,7 +114,12 @@ html, body{
 .item__body {
 	padding: 0px 0px 0px 15px;
 	flex: 1 1 auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
 }
+
 .item__title {
 	color: #d23c24;
 	font-size: 24px;
@@ -127,7 +130,15 @@ html, body{
 	font-size: 16px;
 	line-height: 24px;
 }
-
+.item__icons{
+   font-size: 35px;
+   text-shadow: 2px 2px 0 #fbc200;
+   padding: 10px;
+   
+}
+.item__icons a{
+  padding: 0px 0px 0px 36px;
+}
 
  .footer{
    background-color: #f8c305;
@@ -156,7 +167,7 @@ html, body{
    font-weight: bold;
 }
 .footer__contact{
-   font-size: 30px;
+   font-size: 35px;
 }
 .button{
    color: #d23c24;
@@ -171,30 +182,4 @@ html, body{
 }
 .button:hover{
 	background: #fff;
-}
-
-.popup{
-   position: fixed;
-   width: 100%;
-   height: 100%;
-   background-color: #000;
-   top: 0;
-   left: 0;
-   opacity: 0;
-   visibility: hidden;
-   overflow-y: auto;
-   overflow-x: hidden;
-   transition: all 0.8s easy 0s;
-}
-.popup.open{
-   opacity: 1;
-   visibility: visible;
-}
-.popup.open .popup__content{
-   transform: perspective(600px) translate(0px, 0%) rotate(0deg);
-   opacity: 1;
-}
-.popup__area{
-   position: absolute;
-   width: 100%;
 }
