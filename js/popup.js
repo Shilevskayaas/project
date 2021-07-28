@@ -9,7 +9,7 @@ if (popupLinks.length > 0) {
    for (let index = 0; index < popupLinks.length; index++) {
       const popupLink = popupLinks[index];
       popupLink.addEventListener("click", function (e) {
-         const popupName - popupLink.getAttribute('href').replace('#', '');
+         const popupName = popupLink.getAttribute('href').replace('#', '');
          const curentPopup = document.getElementById(popupName);
          popupOpen(curentPopup);
          e.preventDefault();
@@ -19,10 +19,10 @@ if (popupLinks.length > 0) {
 
 const popupCloseIcon = document.querySelectorAll('.close-popup');
 if (popupCloseIcon.length > 0) {
-   for (let index = ; index < popupCloseIcon.length; index++) {
+   for (let index = 0; index < popupCloseIcon.length; index++) {
       const el = popupCloseIcon[index];
       el.addEventListener('click', function (e) {
-         popupCloseIcon(el.closest('.popup'));
+         popupClose(el.closest('.popup'));
          e.preventDefault();
       });
    }
@@ -56,9 +56,11 @@ function popupClose(popupActive, doUnlock = true) {
 function bodyLock() {
    const lockPaddingValue = window.innerWidth - document.querySelector('.wrapper').offsetWidth + 'px';
 
-   for (let index = 0; index < lockPadding.length; index++) {
-      const el = lockPadding[index];
-      el.getElementsByClassName.paddingRight = lockPaddingValue;
+   if (lockPadding.length > 0) {
+      for (let index = 0; index < lockPadding.length; index++) {
+         const el = lockPadding[index];
+         el.style.paddingRight = lockPaddingValue;
+      }
    }
    body.style.paddingRight = lockPaddingValue;
    body.classList.add('lock');
@@ -95,7 +97,9 @@ document.addEventListener('keydown', function (e) {
 });
 
 (function () {
+   
    if (!Element.prototype.closest) {
+     
       Element.prototype.closest = function (css) {
          var node = this;
          while (node) {
@@ -107,7 +111,9 @@ document.addEventListener('keydown', function (e) {
    }
 })();
 (function () {
+  
    if (!Element.prototype.matches) {
+      
       Element.prototype.matches = Element.prototype.MatchesSelector ||
       Element.prototype.webkitMatchesSelector ||
       Element.prototype.mozMatchesSelector ||

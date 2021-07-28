@@ -17,9 +17,13 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 /*--------------------*/
 /*@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');*/
 
-body{
+html, body{
+   height: 100%;
    font-family: 'Lobster';
    color: #d23c24;
+ }
+ body.lock{
+    overflow: hidden;
  }
 .wrapper{
    min-height: 100%;
@@ -55,7 +59,7 @@ body{
  }
  .header__list li{
     font-size: 30px;
-    padding: 0px 0px 0px 115px;
+    padding: 0px 0px 0px 50px;
     text-shadow: 2px 2px 0 #fbc200;    
  } 
  .header__list a:hover{
@@ -67,7 +71,7 @@ body{
     text-shadow: 2px 2px 0 #fbc200;
  }
  .header__icons a{
-   padding: 0px 0px 0px 36px;
+   padding: 0px 0px 0px 15px;
  }
 
 
@@ -152,7 +156,7 @@ body{
    font-weight: bold;
 }
 .footer__contact{
-   font-size: 35px;
+   font-size: 30px;
 }
 .button{
    color: #d23c24;
