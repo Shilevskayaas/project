@@ -19,6 +19,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 body{
    font-family: 'Lobster';
    color: #d23c24;
+   background: url("img/bcg.jpg") no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
 }
 .wrapper{
    min-height: 100%;
@@ -37,6 +42,7 @@ body{
 .header{
    padding: 5px 0;
    border-bottom: 2.5px solid #fbc200;
+   background-color: #fff;
 }
 a, a:visited{
    color: #d23c24;

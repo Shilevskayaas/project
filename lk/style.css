@@ -19,24 +19,30 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 body{
    font-family: 'Lobster';
    color: #d23c24;
+   background: url("../img/bcg.jpg") no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
 }
 .wrapper{
-min-height: 100%;
-overflow: hidden;
-display: flex;
-flex-direction: column;
+   min-height: 100%;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
 }
 .container{
    max-width: 1180px;
+   padding: 0 15px;
    margin: 0px auto;
 }
 .content{
    flex: 1 1 auto;
-   text-align: center;
 }
 .header{
    padding: 5px 0;
    border-bottom: 2.5px solid #fbc200;
+   background-color: #fff;
 }
 a, a:visited{
    color: #d23c24;
@@ -92,6 +98,7 @@ a, a:visited{
 }
 .lk p{
    padding: 30px 0 0 0;
+   text-align: center;
 }
 .lk__block{
    font-size: 20px;
