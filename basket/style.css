@@ -85,7 +85,7 @@ a, a:visited{
 .basket{
    padding: 20px 0 0 0;
 }
-.basket__form{
+.basket__block{
    padding: 20px;
    margin: 20px 0 0 0;
    background: #bacc04;
@@ -94,30 +94,12 @@ a, a:visited{
    width: 40%;
    margin: 0 auto;
 }
-input{
-   width: 200px;
-}
-h3{
+.basket__form h2{
    font-size: 30px;
    padding: 10px 0 20px 0;
    text-align: center;
 }
-select{
-   font-size: 14px;
-   font-family: 'Lobster';
-   color: #827b7b;
-}
-table{
-	width: 550px;
-}
-table, th, tr{
-	border: 2px solid #d23c24;
-	border-collapse: collapse;
-}
-caption{
-	font-size: 14pt;
-}
-form{
+.basket__form{
 	display: table;
 	padding: 10px;
 	background-color: #f8c305;
@@ -125,27 +107,27 @@ form{
 	border-radius: 10px;
    margin: 0 auto;
 }
-form textarea{
-	width: 250px;
-	height: 70px;
-}
-div.tableRow{
+.basket__box{
 	display: table-row;
 }
-div.tableRow p{
+.basket__box p{
 	display: table-cell;
 	vertical-align: top;
 	padding: 3px;
-   
+   text-align: right;
 }
-div.tableRow p:first-child{
-	text-align: right;
+.basket__box select{
+   font-family: 'Lobster';
 }
-.tableRow select, input, textarea, option{
+.basket__box textarea{
+	width: 250px;
+	height: 70px;
+}
+.basket__box select, input, textarea, option{
    color: #d23c2e;
    background-color: #fff;
 }
-.tableRow input::placeholder, textarea::placeholder{
+.basket__box input::placeholder, textarea::placeholder{
    color: #d86a60;
 }
 
@@ -188,7 +170,7 @@ div.tableRow p:first-child{
    padding: 0 20px;
    white-space: nowrap;
 }
-.button{
+.footer__button{
    color: #d23c24;
 	padding: 10px;
 	background: #bacc04;
@@ -199,6 +181,6 @@ div.tableRow p:first-child{
 	right: 10px;
 	bottom: 75px;
 }
-.button:hover{
+.footer__button:hover{
 	background: #fff;
 }

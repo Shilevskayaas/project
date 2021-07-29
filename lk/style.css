@@ -91,12 +91,15 @@ a, a:visited{
    margin: 0 auto;
 }
 .lk p{
-   padding: 5px;
-}
-.lk p:last-child{
    padding: 30px 0 0 0;
 }
-.lk__form{
+.lk__input{
+   padding: 5px;
+}
+.lk__input:last-child{
+   padding: 30px 0 0 0;
+}
+.lk__block{
    font-size: 20px;
    text-align: right;
    padding: 20px;
@@ -106,12 +109,12 @@ a, a:visited{
    width: 40%;
    margin: 0 auto;
 }
-.lk__form h2{
+.lk__block h2{
    padding: 0 0 20px 0;
    font-size: 30px;
    text-align: center;
 }
-.tableRow{
+.lk__box{
    padding: 10px;
    background: #f8c305;
    border: 2.5px solid #d23c2e;
@@ -119,14 +122,15 @@ a, a:visited{
    width: 50%;
    margin: 0 auto;
 }
-.tableRow input{
+.lk__box input{
    color: #d23c2e;
    background-color: #fff;
    padding: 5px;
 }
-.tableRow input::placeholder, textarea::placeholder{
+.lk__box input::placeholder{
    color: #d86a60;
 }
+
 .footer{
    background-color: #f8c305;
 }
@@ -166,7 +170,7 @@ a, a:visited{
    padding: 0 20px;
    white-space: nowrap;
 }
-.button{
+.footer__button{
    color: #d23c24;
 	padding: 10px;
 	background: #bacc04;
@@ -177,6 +181,6 @@ a, a:visited{
 	right: 10px;
 	bottom: 75px;
 }
-.button:hover{
+.footer__button:hover{
 	background: #fff;
 }

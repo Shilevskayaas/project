@@ -90,10 +90,7 @@ a, a:visited{
 .columns__title {
 	text-align: center;
 	margin: 0px 0px 30px 0px;
-}
-.title {
-	color: #d23c24;
-   text-shadow: 2px 2px 0 #bacc04;
+   text-shadow: 2px 2px 0 #fbc200;
 	font-size: 30px;
 }
 .columns__row {
@@ -139,7 +136,6 @@ a, a:visited{
    font-size: 35px;
    text-shadow: 2px 2px 0 #fbc200;
    padding: 10px;
-   
 }
 .item__icons a{
    padding: 0px 0px 0px 36px;
@@ -191,7 +187,7 @@ a, a:visited{
    padding: 0 20px;
    white-space: nowrap;
 }
-.button{
+.footer__button{
    color: #d23c24;
 	padding: 10px;
 	background: #bacc04;
@@ -202,6 +198,6 @@ a, a:visited{
 	right: 10px;
 	bottom: 75px;
 }
-.button:hover{
+.footer__button:hover{
 	background: #fff;
 }

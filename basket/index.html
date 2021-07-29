@@ -33,39 +33,38 @@
             </div>
          </header>
          <div class="basket">
-            <div class="basket__form">
-               <form action="htt://wickedlysmart.com/hfhtmlcss/contest.php" method="POST">
-                  <h3>Форма заказа</h3>
-                  <div class="tableRow">
+            <div class="basket__block">
+               <form class="basket__form" action="htt://wickedlysmart.com/hfhtmlcss/contest.php" method="POST">
+                  <h2>Форма заказа</h2>
+                  <div class="basket__box">
                      <p>Наименование <input type="text" placeholder="Рокфор" name="cheese" required><br/></p>
                   </div>
-                  <div class="tableRow">
+                  <div class="basket__box">
                      <p>Количество <input type="number" placeholder="2" name="number" required> <br/></p>
                   </div>
-                  <div class="tableRow">
+                  <div class="basket__box">
                      <p>Номер телефона <input type="phonenumber" placeholder="+7910..." required><br/></p>
                   </div>
-                  <div class="tableRow">
+                  <div class="basket__box">
                      <p>Адрес <input type="text" name="adress" placeholder="Н.Новгород, Ленина пр-т,..." required><br/></p>
                   </div>
-                  <div class="tableRow">
+                  <div class="basket__box">
                      <p>С какой суммы подготовить сдачу <input type="number" name="money"/> <br/></p>
                   </div>
-                  <div class="tableRow">
+                  <div class="basket__box">
                      <p>Выбор комплимента
                         <select name="Выбор комплимента">
                         <option>Нож для сыра</option>
                         <option>Шпажки</option>
                      </select></p>
                   </div>
-                  <div class="tableRow">
+                  <div class="basket__box">
                      <p>Как вас найти <textarea placeholder="Подъезд с левой стороны дома..." name="my home"></textarea></p>
                   </div>
-                  <div class="tableRow">
-                     <p><input type="reset" value="Очистить форму" />
-                     </p>
+                  <div class="basket__box">
+                     <p><input type="reset" value="Очистить форму" /></p>
                   </div>
-                  <div class="tableRow">
+                  <div class="basket__box">
                      <p><input type="submit" value="Оформить заказ" /></p>
                   </div>
                </form>
@@ -84,7 +83,7 @@
                <div class="footer__contact">8 800 123 45 67</div>
             </div>
          </div>
-         <a href="#"><input type="submit" class="button" value="Хочу скидку!"></a>
+         <a href="#"><input type="submit" class="footer__button" value="Хочу скидку!"></a>
       </footer>
    </div>
    <script src="https://kit.fontawesome.com/9bda6dcd97.js" crossorigin="anonymous"></script>
