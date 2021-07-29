@@ -78,7 +78,7 @@ a, a:visited{
 .header__icons{
    font-size: 35px;
    text-shadow: 2px 2px 0 #fbc200;
-   padding: 0 20px;
+   padding: 0 15px;
    white-space: nowrap;
 }
 .header__icons a{
