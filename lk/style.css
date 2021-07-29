@@ -38,22 +38,25 @@ flex-direction: column;
    border-bottom: 2.5px solid #fbc200;
 }
 a, a:visited{
-   color: #d23c24;;
+   color: #d23c24;
 }
 .header__row{
    display: flex;
    justify-content: space-between;
    align-items: center;
 }
+.header__logo{
+   padding: 0 20px;
+}
 .header__logo img{
-height: 80px;
+   height: 80px;
 }
 .header__list{
    display: flex;
 }
 .header__list li{
    font-size: 30px;
-   padding: 0px 0px 0px 36px;
+   padding: 0px 0px 0px 80px;
    text-shadow: 2px 2px 0 #fbc200;    
 } 
 .header__list a:hover{
@@ -64,7 +67,7 @@ height: 80px;
    text-shadow: 2px 2px 0 #fbc200;
 }
 .header__icons a{
-padding: 0px 0px 0px 36px;
+   padding: 0 20px;
 }
 
 .lk {
@@ -92,7 +95,7 @@ padding: 0px 0px 0px 36px;
 }
 
 .footer{
-background-color: #f8c305;
+   background-color: #f8c305;
 }
 .footer__row{
    display: flex;
@@ -102,14 +105,16 @@ background-color: #f8c305;
 }
 .footer__social{
    font-size: 40px;
+   white-space: nowrap;
 }
 .footer__social a{
-   padding: 0px 0px 0px 10px;
+   padding: 0 20px;
 }
 .footer__info{
    color: #fff;
    font-size: 14px;
    letter-spacing: 1.5px;
+   text-align: center;
 }
 .footer a, .footer a:visited{
    color: #d23c24;
@@ -119,6 +124,8 @@ background-color: #f8c305;
 }
 .footer__contact{
    font-size: 35px;
+   padding: 0 20px;
+   white-space: nowrap;
 }
 .button{
    color: #d23c24;
@@ -133,4 +140,4 @@ background-color: #f8c305;
 }
 .button:hover{
 	background: #fff;
-}
+}s
