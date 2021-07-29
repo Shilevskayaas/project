@@ -93,12 +93,6 @@ a, a:visited{
 .lk p{
    padding: 30px 0 0 0;
 }
-.lk__input{
-   padding: 5px;
-}
-.lk__input:last-child{
-   padding: 30px 0 0 0;
-}
 .lk__block{
    font-size: 20px;
    text-align: right;
@@ -122,13 +116,27 @@ a, a:visited{
    width: 50%;
    margin: 0 auto;
 }
-.lk__box input{
+.lk__input{
+   padding: 5px;
+}
+.lk__input input{
    color: #d23c2e;
    background-color: #fff;
    padding: 5px;
+   width: 50%;
+   border: 1.5px solid #d23c2e;
+   border-radius: 10px;
 }
-.lk__box input::placeholder{
+.lk__input input::placeholder{
    color: #d86a60;
+}
+.lk__input:last-child input{
+   background-color: #d23c2e;
+   color: #fff;
+}
+.lk__input:last-child input:hover{
+   background-color: #bacc04;;
+   color: #d23c2e;
 }
 
 .footer{
@@ -136,7 +144,7 @@ a, a:visited{
 }
 .footer__row{
    display: flex;
-   height: 65px;
+   min-height: 65px;
    justify-content: space-between;
    align-items: center;
 }
@@ -171,9 +179,9 @@ a, a:visited{
    white-space: nowrap;
 }
 .footer__button{
-   color: #d23c24;
+   background-color: #d23c2e;
+   color: #fff;
 	padding: 10px;
-	background: #bacc04;
 	font-size: 30px;
 	border: 2.5px solid #d23c2e;
 	border-radius: 10px;
@@ -182,5 +190,6 @@ a, a:visited{
 	bottom: 75px;
 }
 .footer__button:hover{
-	background: #fff;
+	background-color: #bacc04;;
+   color: #d23c2e;
 }

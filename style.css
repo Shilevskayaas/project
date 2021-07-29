@@ -28,6 +28,7 @@ body{
 }
 .container{
    max-width: 1180px;
+   padding: 0 15px;
    margin: 0px auto;
 }
 .content{
@@ -84,7 +85,7 @@ a, a:visited{
 }
 
 .columns {
-	padding: 25px 0 25px 0;
+	padding: 25px 10px 50px 10px;
    background: url("img/bcg.jpg") round;
 }
 .columns__title {
@@ -153,7 +154,7 @@ a, a:visited{
 }
 .footer__row{
    display: flex;
-   height: 65px;
+   min-height: 65px;
    justify-content: space-between;
    align-items: center;
 }
@@ -188,9 +189,9 @@ a, a:visited{
    white-space: nowrap;
 }
 .footer__button{
-   color: #d23c24;
+   background-color: #d23c2e;
+   color: #fff;
 	padding: 10px;
-	background: #bacc04;
 	font-size: 30px;
 	border: 2.5px solid #d23c2e;
 	border-radius: 10px;
@@ -199,5 +200,6 @@ a, a:visited{
 	bottom: 75px;
 }
 .footer__button:hover{
-	background: #fff;
+	background-color: #bacc04;;
+   color: #d23c2e;
 }
