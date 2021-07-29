@@ -32,6 +32,7 @@ flex-direction: column;
 }
 .content{
    flex: 1 1 auto;
+   text-align: center;
 }
 .header{
    padding: 5px 0;
@@ -83,14 +84,17 @@ a, a:visited{
    font-size: 20px;
    padding: 20px 0 0 0;
    line-height: 30px;
-   text-align: center;
+   margin: 0 auto;
 }
 .lk p{
-   padding: 30px 0 0 0;;
+   padding: 5px;
+}
+.lk p:last-child{
+   padding: 30px 0 0 0;
 }
 .lk__form{
    font-size: 20px;
-   text-align: center;
+   text-align: right;
    padding: 20px;
    background: #bacc04;
    border: 2.5px solid #d23c2e;
@@ -101,6 +105,23 @@ a, a:visited{
 .lk__form h2{
    padding: 0 0 20px 0;
    font-size: 30px;
+   text-align: center;
+}
+.tableRow{
+   padding: 10px;
+   background: #f8c305;
+   border: 2.5px solid #d23c2e;
+   border-radius: 10px;
+   width: 50%;
+   margin: 0 auto;
+}
+.tableRow input{
+   color: #d23c2e;
+   background-color: #fff;
+   padding: 0 0 0 10px;
+}
+.tableRow input::placeholder, textarea::placeholder{
+   color: #d86a60;
 }
 
 .footer{

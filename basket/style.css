@@ -78,9 +78,12 @@ a, a:visited{
    padding: 0 10px;
    white-space: nowrap;
 }
-
-.form{
+.basket{
+   padding: 20px 0 0 0;
+}
+.basket__form{
    padding: 20px;
+   margin: 20px 0 0 0;
    background: #bacc04;
 	border: 2.5px solid #d23c2e;
 	border-radius: 10px;
@@ -129,11 +132,18 @@ div.tableRow p{
 	display: table-cell;
 	vertical-align: top;
 	padding: 3px;
+   
 }
 div.tableRow p:first-child{
 	text-align: right;
 }
-
+.tableRow select, input, textarea, option{
+   color: #d23c2e;
+   background-color: #fff;
+}
+.tableRow input::placeholder, textarea::placeholder{
+   color: #d86a60;
+}
 .footer{
    background-color: #f8c305;
 }
