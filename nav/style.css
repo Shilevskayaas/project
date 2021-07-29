@@ -77,6 +77,10 @@ a, a:visited{
 .header__icons a{
    padding: 0 10px;
    white-space: nowrap;
+   opacity: 1;
+}
+.header__icons a:hover{
+   opacity: 0.8;
 }
 
 .info{
@@ -111,6 +115,7 @@ a, a:visited{
 .info__list a:hover{
    font-weight: bold;
 }
+
 .footer{
    background-color: #f8c305;
 }
@@ -123,15 +128,21 @@ a, a:visited{
 .footer__social{
    font-size: 40px;
    white-space: nowrap;
+   padding: 0 20px;
 }
 .footer__social a{
-   padding: 0 20px;
+   padding: 0 10px;
+   opacity: 1;
+}
+.footer__social a:hover{
+   opacity: 0.8;
 }
 .footer__info{
    color: #fff;
    font-size: 14px;
    letter-spacing: 1.5px;
    text-align: center;
+   padding: 0 10px;
 }
 .footer a, .footer a:visited{
    color: #d23c24;

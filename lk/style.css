@@ -78,6 +78,10 @@ a, a:visited{
 .header__icons a{
    padding: 0 10px;
    white-space: nowrap;
+   opacity: 1;
+}
+.header__icons a:hover{
+   opacity: 0.8;
 }
 
 .lk {
@@ -118,12 +122,11 @@ a, a:visited{
 .tableRow input{
    color: #d23c2e;
    background-color: #fff;
-   padding: 0 0 0 10px;
+   padding: 5px;
 }
 .tableRow input::placeholder, textarea::placeholder{
    color: #d86a60;
 }
-
 .footer{
    background-color: #f8c305;
 }
@@ -140,6 +143,10 @@ a, a:visited{
 }
 .footer__social a{
    padding: 0 10px;
+   opacity: 1;
+}
+.footer__social a:hover{
+   opacity: 0.8;
 }
 .footer__info{
    color: #fff;

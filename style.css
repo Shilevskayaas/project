@@ -77,6 +77,10 @@ a, a:visited{
 .header__icons a{
    padding: 0 10px;
    white-space: nowrap;
+   opacity: 1;
+}
+.header__icons a:hover{
+   opacity: 0.8;
 }
 
 .columns {
@@ -139,6 +143,13 @@ a, a:visited{
 }
 .item__icons a{
    padding: 0px 0px 0px 36px;
+   opacity: 1;
+}
+.item__body a{
+   opacity: 1;
+}
+.item__body a:hover{
+   opacity: 0.8;
 }
 
 .footer{
@@ -157,6 +168,10 @@ a, a:visited{
 }
 .footer__social a{
    padding: 0 10px;
+   opacity: 1;
+}
+.footer__social a:hover{
+   opacity: 0.8;
 }
 .footer__info{
    color: #fff;
