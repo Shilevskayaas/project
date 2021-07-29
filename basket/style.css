@@ -51,9 +51,13 @@ a, a:visited{
 .header__logo img{
    height: 80px;
 }
+.header__nav{
+   padding: 0 20px;
+}
 .header__list{
    display: flex;
    white-space: nowrap;
+   padding: 0 20px;
 }
 .header__list li{
    font-size: 30px;
@@ -67,6 +71,7 @@ a, a:visited{
 .header__icons{
    font-size: 35px;
    text-shadow: 2px 2px 0 #fbc200;
+   padding: 0 20px;
    white-space: nowrap;
 }
 .header__icons a{
