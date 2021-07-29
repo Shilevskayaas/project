@@ -61,7 +61,7 @@ a, a:visited{
 }
 .header__list li{
    font-size: 30px;
-   padding: 0px 0px 0px 80px;
+   padding: 0px 0px 0px 70px;
    text-shadow: 2px 2px 0 #fbc200;   
    white-space: nowrap; 
 } 
