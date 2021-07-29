@@ -65,6 +65,7 @@ a, a:visited{
 .header__icons{
    font-size: 35px;
    text-shadow: 2px 2px 0 #fbc200;
+   white-space: nowrap;
 }
 .header__icons a{
    padding: 0 20px;
@@ -143,15 +144,17 @@ a, a:visited{
 .footer__social{
    font-size: 40px;
    white-space: nowrap;
+   padding: 0 20px;
 }
 .footer__social a{
-   padding: 0 20px;
+   
 }
 .footer__info{
    color: #fff;
    font-size: 14px;
    letter-spacing: 1.5px;
    text-align: center;
+   padding: 0 10px;
 }
 .footer a, .footer a:visited{
    color: #d23c24;
