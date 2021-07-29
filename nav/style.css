@@ -15,23 +15,21 @@ ul li{list-style:none;}
 img{vertical-align:top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 /*--------------------*/
-/*@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');*/
 
 body{
    font-family: 'Lobster';
    color: #d23c24;
- }
+}
 .wrapper{
    min-height: 100%;
    overflow: hidden;
    display: flex;
    flex-direction: column;
 }
-
- .container{
-    max-width: 1180px;
-    margin: 0px auto;
- }
+.container{
+   max-width: 1180px;
+   margin: 0px auto;
+}
 .content{
    flex: 1 1 auto;
 }
@@ -40,68 +38,72 @@ body{
    border-bottom: 2.5px solid #fbc200;
 }
 a, a:visited{
-   color: #d23c24;;
+   color: #d23c24;
 }
 .header__row{
    display: flex;
    justify-content: space-between;
    align-items: center;
 }
- .header__logo img{
+.header__logo img{
    height: 80px;
- }
- .header__list{
-    display: flex;
- }
- .header__list li{
-    font-size: 30px;
-    padding: 0px 0px 0px 36px;
-    text-shadow: 2px 2px 0 #fbc200;    
- } 
- .header__list a:hover{
-    color: #bacc04;
- }
-  
- .header__icons{
-    font-size: 35px;
-    text-shadow: 2px 2px 0 #fbc200;
- }
- .header__icons a{
+}
+.header__list{
+   display: flex;
+}
+.header__list li{
+   font-size: 30px;
    padding: 0px 0px 0px 36px;
- }
- .info{
-    font-size: 20px;
-    text-align: center;
-    padding: 20px;
- }
- .info p{
-    padding: 30px 0 0 0;
-    line-height: 30px;
- }
- .info__list{
+   text-shadow: 2px 2px 0 #fbc200;    
+} 
+.header__list a:hover{
+   color: #bacc04;
+}
+
+.header__icons{
+   font-size: 35px;
+   text-shadow: 2px 2px 0 #fbc200;
+}
+.header__icons a{
+   padding: 0px 0px 0px 36px;
+}
+
+.info{
+   max-width: 1300px;
+   margin: 0 auto;
+   font-size: 20px;
+   text-align: center;
+   padding: 20px;
+}
+.info p{
+   padding: 30px 0 0 0;
+   line-height: 30px;
+}
+.info__list{
    padding: 20px;
    background: #bacc04;
-	border: 2.5px solid #d23c2e;
-	border-radius: 10px;
+   border: 2.5px solid #d23c2e;
+   border-radius: 10px;
    width: 40%;
    margin: 0 auto;
- }
- .info__list h2{
+}
+.info__list h2{
    padding: 0 0 20px 0;
    font-size: 30px;
- }
- .info__list li{
-    padding: 10px 0;
- }
- .info__list a, a:visited{
-    text-decoration: underline;
- }
- .info__list a:hover{
-    font-weight: bold;
- }
- .footer{
+}
+.info__list li{
+   padding: 10px 0;
+}
+.info__list a, a:visited{
+   text-decoration: underline;
+}
+.info__list a:hover{
+   font-weight: bold;
+}
+
+.footer{
    background-color: #f8c305;
- }
+}
 .footer__row{
    display: flex;
    height: 65px;
@@ -112,7 +114,7 @@ a, a:visited{
    font-size: 40px;
 }
 .footer__social a{
-  padding: 0px 0px 0px 10px;
+   padding: 0px 0px 0px 10px;
 }
 .footer__info{
    color: #fff;
@@ -130,15 +132,15 @@ a, a:visited{
 }
 .button{
    color: #d23c24;
-	padding: 10px;
-	background: #bacc04;
-	font-size: 30px;
-	border: 2.5px solid #d23c2e;
-	border-radius: 10px;
-	position: fixed;
-	right: 10px;
-	bottom: 75px;
+   padding: 10px;
+   background: #bacc04;
+   font-size: 30px;
+   border: 2.5px solid #d23c2e;
+   border-radius: 10px;
+   position: fixed;
+   right: 10px;
+   bottom: 75px;
 }
 .button:hover{
-	background: #fff;
+   background: #fff;
 }

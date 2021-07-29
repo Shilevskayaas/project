@@ -15,23 +15,21 @@ ul li{list-style:none;}
 img{vertical-align:top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 /*--------------------*/
-/*@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');*/
 
 body{
    font-family: 'Lobster';
    color: #d23c24;
- }
+}
 .wrapper{
    min-height: 100%;
    overflow: hidden;
    display: flex;
    flex-direction: column;
 }
-
- .container{
-    max-width: 1180px;
-    margin: 0px auto;
- }
+.container{
+   max-width: 1180px;
+   margin: 0px auto;
+}
 .content{
    flex: 1 1 auto;
 }
@@ -47,28 +45,27 @@ a, a:visited{
    justify-content: space-between;
    align-items: center;
 }
- .header__logo img{
-   height: 80px;
- }
- .header__list{
-    display: flex;
- }
- .header__list li{
-    font-size: 30px;
-    padding: 0px 0px 0px 36px;
-    text-shadow: 2px 2px 0 #fbc200;    
- } 
- .header__list a:hover{
-    color: #bacc04;
- }
-  
- .header__icons{
-    font-size: 35px;
-    text-shadow: 2px 2px 0 #fbc200;
- }
- .header__icons a{
+.header__logo img{
+height: 80px;
+}
+.header__list{
+   display: flex;
+}
+.header__list li{
+   font-size: 30px;
    padding: 0px 0px 0px 36px;
- }
+   text-shadow: 2px 2px 0 #fbc200;    
+} 
+.header__list a:hover{
+   color: #bacc04;
+}
+.header__icons{
+   font-size: 35px;
+   text-shadow: 2px 2px 0 #fbc200;
+}
+.header__icons a{
+padding: 0px 0px 0px 36px;
+}
 
 .form{
    padding: 20px;
@@ -77,7 +74,7 @@ a, a:visited{
 	border-radius: 10px;
    width: 40%;
    margin: 0 auto;
- }
+}
 input{
    width: 200px;
 }
@@ -97,9 +94,6 @@ table{
 table, th, tr{
 	border: 2px solid #d23c24;
 	border-collapse: collapse;
-}
-.italic{
-font-style: italic;
 }
 caption{
 	font-size: 14pt;
@@ -127,32 +121,40 @@ div.tableRow p{
 div.tableRow p:first-child{
 	text-align: right;
 }
- .footer{
+
+.footer{
    background-color: #f8c305;
- }
+}
 .footer__row{
    display: flex;
    height: 65px;
-   justify-content: center;
+   justify-content: space-between;
    align-items: center;
 }
 .footer__social{
+   font-size: 40px;
+}
+.footer__social a{
+   padding: 0px 0px 0px 10px;
 }
 .footer__info{
    color: #fff;
    font-size: 14px;
    letter-spacing: 1.5px;
 }
-.footer a{
+.footer a, .footer a:visited{
    color: #d23c24;
 }
 .footer a:hover{
    font-weight: bold;
 }
+.footer__contact{
+   font-size: 35px;
+}
 .button{
+   color: #d23c24;
 	padding: 10px;
 	background: #bacc04;
-   color: #d23c24;
 	font-size: 30px;
 	border: 2.5px solid #d23c2e;
 	border-radius: 10px;
@@ -163,4 +165,3 @@ div.tableRow p:first-child{
 .button:hover{
 	background: #fff;
 }
-© 2021 GitHub, Inc.
